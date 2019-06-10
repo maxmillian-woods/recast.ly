@@ -2,13 +2,9 @@ import VideoList from './VideoList.js';
 import Search from './Search.js';
 import VideoPlayer from './VideoPlayer.js';
 
-class App extends ReactDOM {
+class App extends React.Component {
   constructor(props) {
     super(props);
-    this.state = { 
-      allVideos: [],
-      currentVideo: null
-    };
   }
   render() {
     return (
